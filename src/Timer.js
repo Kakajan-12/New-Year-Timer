@@ -1,8 +1,6 @@
-import React from "react";
 import moment from "moment";
 
-function Timer() {
-  const newYear = moment("1/1/2024 00:00:00");
+function Timer({newYear}) {
   const currentDate = moment();
 
   const days = newYear.diff(currentDate, "days");

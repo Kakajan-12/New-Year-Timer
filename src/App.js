@@ -7,8 +7,8 @@ import NewYear from './NewYear'
 function App() {
   const [time, setTime] = useState(new Date());
 
-  const newYear2 = moment("1/1/2024 00:00:00");
-  const currentDate2 = moment()
+  const newYear = moment("9/28/2023 14:16:00");
+  const currentDate = moment()
 
   function updatetime() {
     const newtime = new Date().toLocaleTimeString();
@@ -20,7 +20,7 @@ function App() {
 
   return (
     <div className="App">
-      {currentDate2 > newYear2 ? <NewYear />: <Timer />}
+      {currentDate > newYear ? <NewYear />: <Timer newYear={newYear} />}
     </div>
   );
 }
