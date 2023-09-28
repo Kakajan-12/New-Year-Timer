@@ -7,7 +7,7 @@ import NewYear from './NewYear'
 function App() {
   const [time, setTime] = useState(new Date());
 
-  const newYear = moment("9/28/2023 14:16:00");
+  const newYear = moment("1/1/2024 00:00:00");
   const currentDate = moment()
 
   function updatetime() {
