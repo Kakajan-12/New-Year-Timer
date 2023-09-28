@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Kakajan-12/New-Year-Timer/static/css/main.f5bede7a.css",
-    "main.js": "/Kakajan-12/New-Year-Timer/static/js/main.e722253e.js",
+    "main.js": "/Kakajan-12/New-Year-Timer/static/js/main.dde6124c.js",
     "static/media/top-view-festive-christmas-ornaments-arrangement-with-copy-space.jpg": "/Kakajan-12/New-Year-Timer/static/media/top-view-festive-christmas-ornaments-arrangement-with-copy-space.3c73ef2733d00b0dc118.jpg",
     "static/media/SimpleGames.woff": "/Kakajan-12/New-Year-Timer/static/media/SimpleGames.81ba51f16c6ce7c9fa9f.woff",
     "static/media/SimpleGames.woff2": "/Kakajan-12/New-Year-Timer/static/media/SimpleGames.efd4afc2d0c1ca9321b3.woff2",
     "index.html": "/Kakajan-12/New-Year-Timer/index.html",
     "main.f5bede7a.css.map": "/Kakajan-12/New-Year-Timer/static/css/main.f5bede7a.css.map",
-    "main.e722253e.js.map": "/Kakajan-12/New-Year-Timer/static/js/main.e722253e.js.map"
+    "main.dde6124c.js.map": "/Kakajan-12/New-Year-Timer/static/js/main.dde6124c.js.map"
   },
   "entrypoints": [
     "static/css/main.f5bede7a.css",
-    "static/js/main.e722253e.js"
+    "static/js/main.dde6124c.js"
   ]
 }
