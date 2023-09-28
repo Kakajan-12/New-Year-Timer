@@ -1,3 +1,7 @@
+* {
+  margin: 0;
+  padding: 0;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +39,53 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+@font-face {
+    font-family: 'Simple Games';
+    src: url('/src/font/SimpleGames.woff') format('woff2'),
+        url('/src/font/SimpleGames.woff2') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+
+.timer__bg {
+  background-image: url("/src/img/top-view-festive-christmas-ornaments-arrangement-with-copy-space.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.timer__body {
+  display: flex;
+  max-width: 100%;
+}
+
+.timer__items{
+  margin: 0 2rem;
+  color: #fff;
+  font-family: 'Simple Games';
+}
+
+.timer__item:first-child{
+  font-size: 13rem;
+}
+
+.timer__item:last-child{
+  margin-top: 1rem;
+  font-size: 5rem;
+}
+
+.timer__newyear{
+  color: #fff;
+  font-size: 10rem;
+  font-family: 'Simple Games';
 }
